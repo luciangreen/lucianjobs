@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+exec swipl -q -g "use_module('src/cli.pl'), current_prolog_flag(argv, Argv), cli:main(Argv), halt" -t halt -- "$@"

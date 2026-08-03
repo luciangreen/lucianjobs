@@ -1,0 +1,10 @@
+:- ['test_support.pl'].
+:- ['test_repository_catalogue.pl'].
+:- ['test_job_generator.pl'].
+:- ['test_learning_pathways.pl'].
+:- ['test_understanding.pl'].
+:- ['test_prestigiousness.pl'].
+:- ['test_rewards.pl'].
+:- ['test_fairness.pl'].
+:- ['test_appeals.pl'].
+:- ['test_end_to_end.pl'].
