@@ -1,0 +1,1724 @@
+Lucianic Training and Jobs
+
+Below is a complete specification suitable for saving as PROGRAM_REQUIREMENTS.md.
+
+GitHub Copilot Agent Prolog Program Requirements
+
+Understanding/Prestigiousness HRM Rewards Algorithm
+
+Primary implementation language: SWI-Prolog
+Project type: Human Resource Management, work-integrated learning, assessment and rewards engine
+Repository source: https://github.com/luciangreen/
+Primary output: A deterministic, explainable Prolog system that converts algorithm-centred training into assessed work and allocates community, customer and employee rewards.
+
+⸻
+
+1. Project Vision
+
+Develop an HRM rewards algorithm in which learning becomes meaningful work.
+
+Each eligible GitHub repository maintained by Lucian Green may define:
+
+1. an algorithm or technical idea;
+2. one or more occupational roles;
+3. authentic work tasks;
+4. a corresponding training and assessment pathway;
+5. opportunities for participants to create their own version of the algorithm;
+6. rewards for demonstrated understanding and creative prestigiousness.
+
+Participants should learn by completing tasks resembling those performed in relevant Lucianic industries. Rather than separating training from employment, the system should make authentic job tasks part of the assessment.
+
+A participant may study an existing repository, identify its underlying principles and independently design a related algorithm. The participant should follow their own creative vision before comparing the result with existing implementations or similar solutions.
+
+The system should reward:
+
+* genuine understanding;
+* completion of authentic work;
+* originality;
+* usefulness;
+* responsible creativity;
+* contribution to a community;
+* customer benefit;
+* employee development;
+* fulfilment derived from meaningful work.
+
+The system must not treat popularity, social status or superficial presentation as proof of understanding.
+
+⸻
+
+2. Core Educational Ethos
+
+The program shall embody the following principles.
+
+2.1 Training Is Work
+
+Training activities should produce genuine outputs, such as:
+
+* algorithms;
+* Prolog programs;
+* tests;
+* specifications;
+* documentation;
+* demonstrations;
+* educational resources;
+* evaluations;
+* customer solutions;
+* repository improvements;
+* research notes;
+* creative adaptations.
+
+A training task should be suitable for inclusion in a portfolio or, subject to review, contribution to a real project.
+
+2.2 Independent Creation Before Comparison
+
+Participants should normally complete an independent design stage before viewing detailed comparable solutions.
+
+The system must record the point at which comparison material becomes available.
+
+This is intended to:
+
+* preserve original thinking;
+* avoid unconscious copying;
+* encourage divergent solutions;
+* reveal the participant’s actual understanding;
+* allow the participant to compare approaches after creation.
+
+Repository source code may still be inspected when understanding or maintaining that particular repository is the task. The independent-design rule applies when the task asks the participant to invent their own algorithm or variant.
+
+2.3 Understanding Before Prestige
+
+Prestigiousness must only be assessed after a minimum standard of understanding has been demonstrated.
+
+A polished but incorrect project must not receive a high prestigiousness result.
+
+2.4 Fulfilment Rather Than Competition
+
+Rewards should promote mastery, contribution and meaningful creative work. The system should avoid unnecessary rank ordering between participants.
+
+The preferred comparisons are:
+
+* the participant against an explicit standard;
+* the participant’s current work against their earlier work;
+* the solution against its declared mission;
+* the result against agreed customer and community needs.
+
+2.5 Multiple Valid Solutions
+
+The system must allow several substantially different solutions to receive full marks when each solution:
+
+* satisfies the requirements;
+* demonstrates complete understanding;
+* follows a coherent creative vision;
+* passes its declared tests;
+* respects ethical and safety constraints.
+
+⸻
+
+3. Project Objectives
+
+The program must:
+
+1. retrieve or import metadata for repositories associated with github.com/luciangreen/;
+2. represent each eligible repository as the potential basis of one or more jobs;
+3. derive job families, roles, competencies and authentic tasks from repositories;
+4. create work-integrated learning pathways;
+5. assess understanding separately from prestigiousness;
+6. require evidence for every assessment decision;
+7. support employee, customer and community evaluations;
+8. calculate rewards without double-counting evidence;
+9. recognise both individual and team contributions;
+10. explain every score and reward in plain language;
+11. allow appeals and reassessment;
+12. prevent popularity, identity, wealth or social connections from determining results;
+13. preserve creative independence before comparison;
+14. generate reports for learners, employees, managers, customers and community reviewers;
+15. maintain an auditable history of assessment decisions.
+
+⸻
+
+4. Definitions
+
+4.1 Lucianic Industry
+
+A Lucianic industry is a field of useful activity associated with one or more repositories, algorithms or creative systems in the source collection.
+
+Examples may include:
+
+* logic programming;
+* compiler construction;
+* program optimisation;
+* algorithm synthesis;
+* grammar engineering;
+* educational software;
+* manual neural networks;
+* deterministic computing;
+* human-computer interaction;
+* creative technology;
+* digital publishing;
+* music or media technology;
+* philosophical and educational systems.
+
+Industries must be inferred conservatively and may be confirmed or edited by an administrator.
+
+4.2 Repository Job
+
+A repository job is a role whose work is substantially based on understanding, maintaining, applying, teaching, testing or extending the ideas represented by a repository.
+
+A repository may support many jobs.
+
+A job may also draw from multiple repositories.
+
+4.3 Understanding
+
+Understanding is the demonstrated ability to:
+
+* explain the algorithm or system;
+* identify its purpose;
+* trace its behaviour;
+* predict outputs;
+* distinguish essential from incidental features;
+* apply it to new examples;
+* diagnose errors;
+* justify design decisions;
+* implement or modify it correctly;
+* explain limitations and trade-offs.
+
+4.4 Prestigiousness
+
+Prestigiousness is the assessed excellence of a completed contribution after understanding has been established.
+
+It should represent qualities such as:
+
+* coherent creative vision;
+* originality;
+* craftsmanship;
+* usefulness;
+* elegance;
+* reliability;
+* clarity;
+* responsible ambition;
+* positive influence;
+* contribution to the project’s field or community.
+
+Prestigiousness is not fame, celebrity, wealth, follower count, repository stars or the assessor’s personal admiration.
+
+4.5 Creative Vision
+
+A creative vision is a participant’s documented intention for their version of an algorithm or system.
+
+It should describe:
+
+* the problem being addressed;
+* intended users;
+* desired experience;
+* important principles;
+* selected constraints;
+* planned differentiators;
+* definition of success.
+
+4.6 One Hundred Percent Understanding
+
+A result of 100% understanding means that every mandatory understanding criterion has been supported by sufficient evidence.
+
+It does not imply that the participant knows everything that could ever be known about the topic.
+
+4.7 One Hundred Percent Prestigiousness
+
+A result of 100% prestigiousness means that the work completely satisfies the prestigiousness rubric established for that project and level.
+
+It does not mean that the work is objectively the best possible work or superior to every other valid solution.
+
+⸻
+
+5. Principal Workflow
+
+The required workflow is:
+
+Discover repository
+    ↓
+Extract or confirm algorithm concept
+    ↓
+Map concept to industries and jobs
+    ↓
+Define authentic work products
+    ↓
+Define competencies and assessment criteria
+    ↓
+Participant selects role or pathway
+    ↓
+Participant records creative vision
+    ↓
+Participant completes independent design
+    ↓
+System unlocks comparison stage
+    ↓
+Participant compares and reflects
+    ↓
+Automated and human assessment
+    ↓
+Understanding gate
+    ↓
+Prestigiousness assessment
+    ↓
+Customer, employee and community impact review
+    ↓
+Reward calculation
+    ↓
+Explanation, appeal and portfolio record
+
+⸻
+
+6. Functional Requirements
+
+6.1 Repository Catalogue
+
+The system shall maintain a repository catalogue containing:
+
+repository(
+    RepositoryId,
+    Owner,
+    Name,
+    Url,
+    Description,
+    PrimaryLanguage,
+    Topics,
+    License,
+    Status
+).
+
+Example:
+
+repository(
+    repo_001,
+    luciangreen,
+    detlog,
+    'https://github.com/luciangreen/detlog',
+    'Deterministic logic programming and Prolog transformation project',
+    prolog,
+    [determinism, optimisation, compiler],
+    unknown,
+    active
+).
+
+The importer must:
+
+* accept GitHub API data, JSON exports or manually supplied metadata;
+* cache retrieved metadata;
+* tolerate incomplete descriptions;
+* avoid inventing repository purposes;
+* mark inferred information as inferred;
+* permit administrator correction;
+* retain the source and retrieval date of imported facts.
+
+The first release does not need to clone every repository automatically. It must support incremental catalogue construction.
+
+⸻
+
+6.2 Repository Concept Analysis
+
+The system shall represent concepts derived from repositories:
+
+algorithm_concept(
+    ConceptId,
+    RepositoryId,
+    Name,
+    Purpose,
+    Inputs,
+    Outputs,
+    CoreOperations,
+    Constraints,
+    EvidenceSource
+).
+
+Concept extraction may use:
+
+* README files;
+* documentation;
+* source predicates;
+* examples;
+* tests;
+* manually supplied descriptions;
+* approved AI-generated summaries.
+
+AI-generated interpretations must be labelled as provisional until confirmed.
+
+⸻
+
+6.3 Industry Mapping
+
+The system shall map repositories and concepts to industries:
+
+industry(IndustryId, Name, Description).
+repository_industry(
+    RepositoryId,
+    IndustryId,
+    Confidence,
+    Basis
+).
+
+Confidence must be represented as one of:
+
+confidence(confirmed).
+confidence(high).
+confidence(medium).
+confidence(low).
+
+Low-confidence mappings must not automatically create employee assessments without review.
+
+⸻
+
+6.4 Job Generation
+
+The system shall create job definitions from one or more algorithm concepts.
+
+job_role(
+    JobId,
+    Title,
+    IndustryId,
+    Level,
+    Mission,
+    RepositoryIds,
+    CompetencyIds,
+    Status
+).
+
+Possible job types include:
+
+* algorithm maintainer;
+* Prolog developer;
+* specification engineer;
+* test engineer;
+* compiler engineer;
+* optimisation analyst;
+* repository educator;
+* technical writer;
+* demonstration designer;
+* customer implementation consultant;
+* community support contributor;
+* research and comparison analyst;
+* creative algorithm designer.
+
+Generated jobs must be suggestions until approved.
+
+Each job must contain:
+
+* a mission;
+* required competencies;
+* authentic tasks;
+* expected work products;
+* assessment criteria;
+* ethical boundaries;
+* customer or community beneficiaries;
+* estimated complexity;
+* supported experience level.
+
+⸻
+
+6.5 Competency Model
+
+Competencies shall be represented explicitly:
+
+competency(
+    CompetencyId,
+    Name,
+    Category,
+    Description,
+    LevelDescriptors
+).
+
+Required competency categories include:
+
+competency_category(conceptual_understanding).
+competency_category(implementation).
+competency_category(testing).
+competency_category(explanation).
+competency_category(creative_design).
+competency_category(customer_value).
+competency_category(community_contribution).
+competency_category(teamwork).
+competency_category(ethical_judgement).
+competency_category(reflection).
+
+Each competency must have observable evidence requirements.
+
+⸻
+
+6.6 Authentic Work Tasks
+
+Tasks shall be defined as actual or realistic work:
+
+work_task(
+    TaskId,
+    JobId,
+    Title,
+    Brief,
+    Inputs,
+    RequiredOutputs,
+    Constraints,
+    Beneficiary,
+    Difficulty,
+    EstimatedEffort
+).
+
+Examples include:
+
+* repair a failing predicate;
+* derive input/output examples;
+* write tests for an algorithm;
+* explain an algorithm to a beginner;
+* create an independent implementation;
+* optimise a program while preserving semantics;
+* convert an informal specification into Prolog;
+* compare two algorithms after independent development;
+* prepare a customer demonstration;
+* produce accessible documentation;
+* respond to a community issue;
+* adapt an algorithm to a new domain.
+
+Every assessed task must produce inspectable evidence.
+
+⸻
+
+6.7 Work-Integrated Assessment
+
+A task may simultaneously count as:
+
+* training;
+* productive work;
+* portfolio evidence;
+* competency assessment;
+* customer delivery;
+* community contribution.
+
+The system must prevent the same evidence from being counted multiple times toward the same criterion.
+
+Evidence may support several different criteria only when the relationship is explicitly recorded.
+
+evidence_supports(
+    EvidenceId,
+    CriterionId,
+    Strength,
+    Explanation
+).
+
+⸻
+
+6.8 Creative Vision Stage
+
+Before beginning an independent implementation, the participant shall be able to record:
+
+creative_vision(
+    VisionId,
+    ParticipantId,
+    ProjectId,
+    Problem,
+    IntendedUsers,
+    Principles,
+    DistinctiveFeatures,
+    SuccessConditions,
+    RecordedAt
+).
+
+The creative vision may be amended. All versions must be retained.
+
+An assessor must not penalise a participant merely because their vision differs from the original repository, provided that the project satisfies its approved requirements.
+
+⸻
+
+6.9 Independent Work and Comparison Lock
+
+The system shall support staged access:
+
+project_stage(ProjectId, Stage).
+
+Valid stages include:
+
+stage(orientation).
+stage(vision).
+stage(independent_design).
+stage(independent_implementation).
+stage(comparison_unlocked).
+stage(comparison_reflection).
+stage(final_revision).
+stage(assessment).
+stage(completed).
+
+During independent design, detailed comparison resources may be hidden or marked as restricted.
+
+The system must not falsely claim that work was independent. It should record:
+
+* resources declared by the participant;
+* repository files viewed through the platform;
+* time at which comparison materials were unlocked;
+* participant declarations;
+* assessor observations.
+
+This feature is for educational integrity, not intrusive surveillance.
+
+⸻
+
+6.10 Comparison and Reflection
+
+After the independent version is substantially complete, the system shall unlock comparison.
+
+The participant should answer:
+
+1. What is similar?
+2. What is different?
+3. Which differences are intentional?
+4. What did the existing solution handle better?
+5. What does the new solution handle better?
+6. What should be retained from the independent vision?
+7. What should be revised?
+8. Were any assumptions incorrect?
+9. Can the solutions be combined?
+10. What was learned from the comparison?
+
+Comparison must improve understanding without automatically forcing conformity.
+
+⸻
+
+6.11 Understanding Assessment
+
+Understanding shall be criterion-based.
+
+understanding_criterion(
+    CriterionId,
+    ProjectType,
+    Name,
+    Description,
+    Mandatory,
+    Weight,
+    EvidenceRules
+).
+
+Default dimensions:
+
+1. purpose;
+2. input and output behaviour;
+3. internal process;
+4. correctness;
+5. application;
+6. debugging;
+7. modification;
+8. explanation;
+9. constraints and limitations;
+10. transfer to a new problem.
+
+A weighted score alone must not produce 100% understanding.
+
+For 100%, every mandatory criterion must pass:
+
+full_understanding(AssessmentId) :-
+    assessment_criteria(AssessmentId, Criteria),
+    all_mandatory_passed(Criteria),
+    no_unresolved_critical_error(AssessmentId).
+
+A participant may earn a high partial score while still being told exactly which mandatory criteria remain incomplete.
+
+⸻
+
+6.12 Prestigiousness Assessment
+
+Prestigiousness shall be assessed only when the understanding gate is satisfied at the project’s required level.
+
+prestigiousness_eligible(ProjectId) :-
+    required_understanding_threshold(ProjectId, Threshold),
+    understanding_score(ProjectId, Score),
+    Score >= Threshold,
+    mandatory_understanding_complete(ProjectId).
+
+Default prestigiousness dimensions:
+
+* creative coherence;
+* originality;
+* technical craftsmanship;
+* reliability;
+* usability;
+* explanatory quality;
+* aesthetic or conceptual elegance;
+* ambition appropriate to the task;
+* customer value;
+* community value;
+* maintainability;
+* responsible innovation.
+
+The system shall distinguish:
+
+prestigiousness_dimension(originality).
+prestigiousness_dimension(craftsmanship).
+prestigiousness_dimension(usefulness).
+prestigiousness_dimension(influence).
+prestigiousness_dimension(creative_coherence).
+
+Originality must not require novelty at the level of a patent or academic discovery. A personally developed, well-justified adaptation may qualify.
+
+⸻
+
+6.13 Assessment Levels
+
+The system should support descriptive levels:
+
+achievement_level(not_yet_demonstrated).
+achievement_level(developing).
+achievement_level(competent).
+achievement_level(accomplished).
+achievement_level(distinguished).
+achievement_level(complete).
+
+Numeric scores may be used internally, but reports should prioritise:
+
+* criteria passed;
+* evidence;
+* strengths;
+* remaining work;
+* recommended next task.
+
+⸻
+
+6.14 Multi-Stakeholder Evidence
+
+Assessment may incorporate evidence from:
+
+* the participant;
+* an employee supervisor;
+* a technical assessor;
+* a customer;
+* community reviewers;
+* automated tests;
+* static analysis;
+* peer reviewers.
+
+review(
+    ReviewId,
+    ProjectId,
+    ReviewerRole,
+    CriteriaResults,
+    Comments,
+    ConflictsOfInterest,
+    SubmittedAt
+).
+
+Stakeholders assess only criteria they are qualified to observe.
+
+For example:
+
+* customers assess usefulness and experience;
+* technical assessors assess correctness;
+* community reviewers assess contribution quality;
+* participants assess reflection and fulfilment;
+* automated tests assess specified behaviour.
+
+Customer satisfaction must not override technical correctness, ethics or employee wellbeing.
+
+⸻
+
+6.15 Reward Categories
+
+The system shall calculate separate rewards for:
+
+reward_category(employee).
+reward_category(customer).
+reward_category(community).
+reward_category(team).
+reward_category(learning).
+reward_category(creative_contribution).
+
+Possible reward forms include:
+
+* competency recognition;
+* digital certificates;
+* portfolio entries;
+* increased project responsibility;
+* mentorship opportunities;
+* public credit, with consent;
+* community privileges;
+* access to advanced projects;
+* non-financial recognition;
+* financial bonuses where authorised;
+* shared team rewards;
+* customer credits or benefits;
+* community grants or resource allocations.
+
+The system must not assume that every deployment uses money.
+
+⸻
+
+6.16 Reward Calculation
+
+Rewards must be calculated from explainable components.
+
+A default model may use:
+
+Eligible Contribution Reward =
+    Understanding Gate
+    × Base Work Value
+    × Completion Factor
+    × Quality Factor
+    × Impact Factor
+    × Responsibility Factor
+    × Equity Adjustment
+
+Prestigiousness should normally modify recognition rather than determine basic pay.
+
+Basic payment for completed work must not be withheld merely because the work is not considered prestigious.
+
+Example Prolog interface:
+
+calculate_reward(ProjectId, StakeholderId, RewardBreakdown).
+
+Example result:
+
+reward_breakdown(
+    project_17,
+    employee_4,
+    [
+        component(base_work_value, 100),
+        component(completion, 1.0),
+        component(understanding, 1.0),
+        component(quality, 0.9),
+        component(customer_impact, 0.8),
+        component(community_impact, 0.7)
+    ],
+    total(90),
+    recognition([complete_understanding, accomplished_contribution])
+).
+
+No hidden machine-learning score may directly determine pay or employment consequences.
+
+⸻
+
+6.17 Community Reward
+
+Community rewards should recognise:
+
+* useful documentation;
+* issue assistance;
+* testing;
+* examples;
+* translations;
+* accessibility work;
+* respectful review;
+* reusable components;
+* mentorship;
+* responsible disclosure of defects.
+
+The program must avoid equating GitHub stars with community value. Stars can indicate interest, but research has shown that starring practices have varied meanings and should not be treated as a definitive quality measure. (⁠arXiv)
+
+⸻
+
+6.18 Customer Reward
+
+Customer rewards may be generated when customers:
+
+* provide useful requirements;
+* participate in testing;
+* give actionable feedback;
+* permit publication of an anonymised case study;
+* help validate accessibility;
+* contribute reusable non-confidential examples.
+
+Customers must not be rewarded for falsely approving poor work.
+
+⸻
+
+6.19 Employee Reward
+
+Employee rewards shall recognise:
+
+* mastery;
+* authentic task completion;
+* improvement;
+* creativity;
+* reliability;
+* collaboration;
+* mentorship;
+* ethical conduct;
+* customer benefit;
+* community contribution.
+
+Reward calculations must not penalise an employee for:
+
+* disability-related work patterns;
+* approved accommodations;
+* part-time status;
+* lack of public visibility;
+* refusal to work unpaid hours;
+* personality style;
+* protected personal characteristics;
+* not participating in optional publicity.
+
+⸻
+
+6.20 Team Contributions
+
+The program must support shared and individual credit.
+
+contribution(
+    ProjectId,
+    ParticipantId,
+    ContributionType,
+    Description,
+    EvidenceIds,
+    Proportion,
+    ConfirmedBy
+).
+
+Contribution proportions are explanatory and need not sum to financial ownership percentages.
+
+The system must recognise invisible work such as:
+
+* coordination;
+* testing;
+* documentation;
+* emotional and practical team support;
+* code review;
+* requirement clarification;
+* maintenance.
+
+⸻
+
+6.21 Fulfilment Assessment
+
+Fulfilment must be participant-led and must not be used as a coercive performance measure.
+
+Optional prompts include:
+
+* Did the task feel meaningful?
+* Did it use or develop your strengths?
+* Did you retain creative ownership?
+* Was the challenge appropriate?
+* Did the work benefit someone?
+* Would you choose a related task again?
+* What would make the work more fulfilling?
+
+fulfilment_record(
+    ParticipantId,
+    ProjectId,
+    Responses,
+    Visibility,
+    RecordedAt
+).
+
+Private fulfilment responses must not be exposed to managers unless the participant explicitly permits it.
+
+⸻
+
+6.22 Appeals and Reassessment
+
+Every consequential assessment must be appealable.
+
+appeal(
+    AppealId,
+    AssessmentId,
+    AppellantId,
+    Grounds,
+    AdditionalEvidence,
+    Status
+).
+
+Appeals may be based on:
+
+* incorrect facts;
+* overlooked evidence;
+* inconsistent rubric application;
+* inaccessible assessment method;
+* assessor conflict of interest;
+* technical failure;
+* disagreement about requirement interpretation.
+
+The appeal reviewer should not be the sole original assessor when another qualified reviewer is available.
+
+⸻
+
+7. Prolog Architecture
+
+The proposed module structure is:
+
+src/
+  hrm_rewards.pl
+  repository_catalogue.pl
+  repository_import.pl
+  concept_analysis.pl
+  industry_mapping.pl
+  job_generator.pl
+  competency_model.pl
+  task_generator.pl
+  learning_pathways.pl
+  creative_vision.pl
+  comparison_control.pl
+  evidence_store.pl
+  understanding_assessment.pl
+  prestigiousness_assessment.pl
+  stakeholder_reviews.pl
+  reward_engine.pl
+  contribution_accounting.pl
+  fulfilment.pl
+  fairness_rules.pl
+  appeals.pl
+  reports.pl
+  persistence.pl
+  validation.pl
+  cli.pl
+tests/
+  test_repository_catalogue.pl
+  test_job_generator.pl
+  test_learning_pathways.pl
+  test_understanding.pl
+  test_prestigiousness.pl
+  test_rewards.pl
+  test_fairness.pl
+  test_appeals.pl
+  test_end_to_end.pl
+
+The top-level interface shall be:
+
+:- module(hrm_rewards, [
+    import_repository/2,
+    register_repository/2,
+    analyse_repository/2,
+    generate_job_options/2,
+    create_learning_project/4,
+    record_creative_vision/3,
+    submit_evidence/4,
+    complete_independent_stage/2,
+    unlock_comparison/2,
+    submit_reflection/3,
+    assess_understanding/3,
+    assess_prestigiousness/3,
+    calculate_rewards/3,
+    explain_assessment/2,
+    explain_reward/2,
+    submit_appeal/3,
+    generate_participant_report/2
+]).
+
+⸻
+
+8. Required Core Predicates
+
+repository_job_options(+RepositoryId, -JobOptions).
+job_learning_path(+JobId, +ParticipantProfile, -LearningPath).
+task_assessment_map(+TaskId, -AssessmentCriteria).
+evidence_valid(+Evidence, -ValidationResult).
+evidence_supports_criterion(
+    +EvidenceId,
+    +CriterionId,
+    -SupportResult
+).
+understanding_result(
+    +ProjectId,
+    -Score,
+    -CriterionResults
+).
+mandatory_understanding_complete(+ProjectId).
+prestigiousness_result(
+    +ProjectId,
+    -Score,
+    -DimensionResults
+).
+reward_eligibility(
+    +ProjectId,
+    +StakeholderId,
+    -Eligibility
+).
+reward_components(
+    +ProjectId,
+    +StakeholderId,
+    -Components
+).
+reward_total(+Components, -Total).
+assessment_explanation(+AssessmentId, -Explanation).
+reward_explanation(+RewardId, -Explanation).
+fairness_check(+Decision, -FairnessResult).
+conflict_of_interest(+ReviewerId, +ProjectId, -Result).
+comparison_may_be_unlocked(+ProjectId, -Decision).
+appeal_outcome(+AppealId, -Outcome).
+
+⸻
+
+9. Determinism and Explainability
+
+Consequential predicates should be deterministic wherever practical.
+
+The system must:
+
+* avoid unexplained choicepoints in final decisions;
+* return structured alternatives when several outcomes are valid;
+* separate facts, inferences and assessor judgements;
+* show which rules produced a decision;
+* report missing evidence rather than guessing;
+* preserve the version of the rubric used;
+* preserve the version of the source repository metadata used.
+
+Example:
+
+explain_reward(RewardId, Explanation) :-
+    reward_record(RewardId, ProjectId, RecipientId, Components, Total),
+    maplist(explain_component(ProjectId, RecipientId), Components, Reasons),
+    Explanation = reward_explanation(
+        recipient(RecipientId),
+        total(Total),
+        reasons(Reasons)
+    ).
+
+⸻
+
+10. Scoring Rules
+
+10.1 Understanding Score
+
+A suggested numeric representation is:
+
+Understanding Score =
+    Sum of verified criterion points
+    ÷ Sum of available criterion points
+    × 100
+
+However:
+
+understanding_percentage(ProjectId, 100) :-
+    all_mandatory_criteria_complete(ProjectId),
+    all_required_evidence_verified(ProjectId),
+    no_critical_misunderstanding(ProjectId).
+
+A calculated value that rounds to 100 must be capped below 100 when a mandatory criterion remains incomplete.
+
+⸻
+
+10.2 Prestigiousness Score
+
+Prestigiousness may be calculated as:
+
+Prestigiousness =
+    Creative Coherence
+  + Craftsmanship
+  + Reliability
+  + Usefulness
+  + Responsible Originality
+  + Communication
+
+Weights must be defined per project rather than universally fixed.
+
+A safety-critical project should give greater weight to reliability.
+
+A creative demonstration may give greater weight to creative coherence and communication.
+
+⸻
+
+10.3 Reward Decomposition
+
+The reward architecture should use separate components rather than one opaque score. Decomposed reward models are easier to inspect and allow components to be evaluated according to the evidence relevant to each component. (⁠arXiv)
+
+The program must prevent:
+
+* one weak popularity measure from overwhelming all other evidence;
+* prestigiousness from replacing correctness;
+* customer enthusiasm from replacing safety;
+* automatic tests from replacing human judgement where interpretation is required;
+* human judgement from overriding clear test failures without explanation.
+
+⸻
+
+11. Fairness and Ethical Requirements
+
+The system shall:
+
+1. use explicit rubrics;
+2. give participants access to applicable criteria before assessment;
+3. provide reasonable alternative evidence formats;
+4. record assessor conflicts of interest;
+5. permit human review of automated results;
+6. avoid personality scoring;
+7. avoid emotion recognition;
+8. avoid inferring protected attributes;
+9. avoid surveillance unrelated to assessment integrity;
+10. minimise personal data collection;
+11. distinguish optional public recognition from required assessment;
+12. provide private feedback by default;
+13. require consent before publishing participant work or identity;
+14. prevent retaliation through the reward system;
+15. preserve a complete decision audit trail;
+16. allow correction of inaccurate records;
+17. separate developmental feedback from disciplinary procedures;
+18. prohibit fully automated dismissal, demotion or pay-reduction decisions.
+
+⸻
+
+12. Privacy Requirements
+
+The program shall store only information necessary for:
+
+* project participation;
+* evidence;
+* assessment;
+* rewards;
+* appeals;
+* reporting.
+
+Sensitive free-text reflections should have separate access controls.
+
+The system should support:
+
+visibility(private).
+visibility(assessor_only).
+visibility(team).
+visibility(organisation).
+visibility(public_with_consent).
+
+GitHub usernames must not automatically be treated as legal employee identities.
+
+⸻
+
+13. Repository Licensing and Attribution
+
+Before a repository is used for commercial work or redistribution, the system must check its recorded licence status.
+
+If the licence is unknown, the system shall warn:
+
+licence_warning(
+    RepositoryId,
+    'Repository licence has not been confirmed. Do not assume permission for redistribution or commercial reuse.'
+).
+
+The platform must retain:
+
+* source repository URL;
+* author or owner attribution;
+* declared licence;
+* relevant copyright notices;
+* participant contribution attribution.
+
+Independent implementation does not automatically remove obligations created by copied source material.
+
+⸻
+
+14. Input Formats
+
+The first release shall accept:
+
+* Prolog facts;
+* JSON repository metadata;
+* CSV competency and rubric data;
+* local repository paths;
+* GitHub repository URLs;
+* manually entered project descriptions.
+
+Example command:
+
+?- import_repository(
+       'https://github.com/luciangreen/detlog',
+       RepositoryId
+   ).
+
+Example manually defined job:
+
+?- create_job_from_repository(
+       detlog,
+       job_options{
+           title:'Deterministic Logic Transformation Engineer',
+           level:intermediate,
+           beneficiary:community
+       },
+       JobId
+   ).
+
+⸻
+
+15. Output Formats
+
+The system shall produce:
+
+* Prolog terms;
+* human-readable text reports;
+* Markdown project briefs;
+* JSON API responses;
+* CSV assessment exports;
+* portfolio summaries;
+* reward breakdowns;
+* appeal reports;
+* audit records.
+
+Example report:
+
+Project: Independent Deterministic Prolog Converter
+Role: Algorithm Transformation Engineer
+Understanding: 100%
+All 10 mandatory criteria demonstrated.
+Prestigiousness: 88%
+Strengths:
+- coherent creative vision;
+- strong test coverage;
+- clear explanation;
+- useful alternative transformation strategy.
+Further development:
+- improve error diagnostics;
+- test larger programs;
+- document performance trade-offs.
+Rewards:
+- Complete Understanding recognition;
+- Accomplished Creative Contribution;
+- Community Documentation credit;
+- eligibility for advanced compiler project.
+
+⸻
+
+16. Command-Line Interface
+
+Required commands:
+
+hrm repository import URL
+hrm repository list
+hrm repository analyse REPOSITORY_ID
+hrm jobs generate REPOSITORY_ID
+hrm jobs list
+hrm project create JOB_ID PARTICIPANT_ID
+hrm project vision PROJECT_ID FILE
+hrm project status PROJECT_ID
+hrm evidence submit PROJECT_ID TYPE FILE
+hrm project complete-independent PROJECT_ID
+hrm comparison unlock PROJECT_ID
+hrm reflection submit PROJECT_ID FILE
+hrm assess understanding PROJECT_ID
+hrm assess prestigiousness PROJECT_ID
+hrm rewards calculate PROJECT_ID
+hrm report participant PARTICIPANT_ID
+hrm explain assessment ASSESSMENT_ID
+hrm explain reward REWARD_ID
+hrm appeal submit ASSESSMENT_ID FILE
+hrm test
+
+⸻
+
+17. Validation Rules
+
+The program must reject or flag:
+
+* a job without a mission;
+* an assessment criterion without evidence rules;
+* a reward with no supporting assessment;
+* prestigiousness assessment before the understanding gate;
+* 100% understanding with an incomplete mandatory criterion;
+* 100% prestigiousness with an unresolved critical defect;
+* customer reviews applied to technical criteria outside the customer’s competence;
+* duplicate evidence counted twice for the same criterion;
+* public recognition without recorded consent;
+* financial penalties generated solely by an automated score;
+* repository reuse where licensing has not been checked;
+* an assessor with an unresolved conflict of interest;
+* comparison marked independent after comparison resources were accessed, unless transparently explained.
+
+⸻
+
+18. Required Test Scenarios
+
+18.1 Complete Understanding
+
+A participant satisfies every mandatory understanding criterion.
+
+Expected:
+
+Score = 100,
+Status = complete.
+
+18.2 Rounded but Incomplete
+
+Weighted arithmetic produces 99.6, but one mandatory criterion is incomplete.
+
+Expected:
+
+Score < 100,
+Status = incomplete_mandatory_criterion.
+
+18.3 Prestigious but Incorrect
+
+A project is visually impressive but fails core correctness tests.
+
+Expected:
+
+* understanding is not complete;
+* prestigiousness eligibility is denied or limited;
+* craftsmanship feedback may still be recorded;
+* no complete prestigiousness award is issued.
+
+18.4 Unconventional Valid Solution
+
+A participant’s implementation differs significantly from the repository but passes the agreed specification.
+
+Expected:
+
+* no penalty for divergence;
+* originality and creative coherence may score highly;
+* comparison report explains differences.
+
+18.5 Popular but Low-Quality Project
+
+A project receives many stars or positive reactions but lacks correctness evidence.
+
+Expected:
+
+* popularity does not raise understanding;
+* popularity is reported only as contextual information;
+* no quality claim is inferred.
+
+18.6 Customer Approval and Safety Failure
+
+The customer approves a result that violates a safety constraint.
+
+Expected:
+
+* safety failure blocks completion;
+* customer approval remains recorded;
+* reward explanation identifies the conflict.
+
+18.7 Team Credit
+
+Several participants provide coding, tests, documentation and coordination.
+
+Expected:
+
+* each contribution is recognised;
+* team reward is available;
+* coding is not treated as the only valuable contribution.
+
+18.8 Comparison Lock
+
+A participant has not completed the independent-design requirement.
+
+Expected:
+
+Decision = denied(independent_stage_incomplete).
+
+18.9 Appeal Upheld
+
+An assessor overlooked valid evidence.
+
+Expected:
+
+* the original result remains in the audit history;
+* a revised assessment is created;
+* the reward is recalculated;
+* the participant receives an explanation.
+
+18.10 Private Fulfilment Record
+
+A participant marks fulfilment responses private.
+
+Expected:
+
+* the participant can view them;
+* unauthorised managers cannot retrieve them;
+* the responses do not affect pay.
+
+⸻
+
+19. Property-Based Tests
+
+Where practical, test these invariants:
+
+% Prestigiousness never unlocks before the understanding gate.
+prestigiousness_eligible(P) ->
+    mandatory_understanding_complete(P).
+% A reward total is reproducible from its components.
+calculate_reward(P, S, R1),
+calculate_reward(P, S, R2) ->
+    R1 == R2.
+% Removing valid evidence cannot increase understanding.
+subset(Evidence2, Evidence1) ->
+    understanding(Evidence2) =< understanding(Evidence1).
+% Popularity alone cannot change understanding.
+same_learning_evidence(P1, P2),
+different_popularity(P1, P2) ->
+    understanding_score(P1) =:= understanding_score(P2).
+% A missing mandatory criterion prevents complete understanding.
+missing_mandatory_criterion(P) ->
+    \+ full_understanding(P).
+
+⸻
+
+20. Non-Functional Requirements
+
+20.1 Portability
+
+The initial version shall target current SWI-Prolog.
+
+20.2 Performance
+
+The program should support:
+
+* at least 1,000 repositories;
+* at least 10,000 job definitions;
+* at least 100,000 evidence records;
+* incremental assessment recalculation;
+* indexed access by repository, participant, project and criterion.
+
+20.3 Reliability
+
+Consequential calculations must be reproducible from stored facts and versioned rules.
+
+20.4 Accessibility
+
+Reports must:
+
+* use plain language;
+* avoid colour-only distinctions;
+* support screen readers when rendered as HTML;
+* provide text equivalents for charts;
+* permit extended-time and alternative-format evidence.
+
+20.5 Maintainability
+
+Each module shall include:
+
+* module documentation;
+* predicate mode declarations in comments;
+* unit tests;
+* examples;
+* failure behaviour;
+* explanation of data structures.
+
+⸻
+
+21. Development Stages for GitHub Copilot Agent
+
+Stage 1: Foundations
+
+Implement:
+
+* project structure;
+* core data model;
+* in-memory persistence;
+* validation framework;
+* sample repositories;
+* basic tests.
+
+Stage 2: Repository and Job Mapping
+
+Implement:
+
+* repository import;
+* concept records;
+* industry mapping;
+* job generation;
+* administrator confirmation.
+
+Stage 3: Learning and Work Tasks
+
+Implement:
+
+* competencies;
+* authentic tasks;
+* learning pathways;
+* project lifecycle;
+* creative vision records.
+
+Stage 4: Independent Creation Workflow
+
+Implement:
+
+* project stages;
+* comparison lock;
+* resource declarations;
+* comparison unlock;
+* reflection records.
+
+Stage 5: Understanding Assessment
+
+Implement:
+
+* criterion definitions;
+* evidence validation;
+* mandatory gates;
+* score calculations;
+* explanations.
+
+Stage 6: Prestigiousness Assessment
+
+Implement:
+
+* eligibility gate;
+* project-specific rubrics;
+* creative coherence;
+* originality;
+* craftsmanship;
+* impact assessment.
+
+Stage 7: Multi-Stakeholder Reviews
+
+Implement:
+
+* employee;
+* customer;
+* community;
+* technical;
+* peer;
+* automated test reviews.
+
+Stage 8: Rewards
+
+Implement:
+
+* decomposed rewards;
+* employee rewards;
+* customer rewards;
+* community rewards;
+* team credit;
+* recognition records.
+
+Stage 9: Fairness, Privacy and Appeals
+
+Implement:
+
+* fairness validation;
+* access control;
+* consent records;
+* conflict-of-interest checks;
+* appeals;
+* reassessment.
+
+Stage 10: Interfaces and Documentation
+
+Implement:
+
+* command-line interface;
+* JSON interface;
+* Markdown reports;
+* complete examples;
+* installation guide;
+* architecture guide;
+* administrator guide;
+* assessor guide;
+* participant guide.
+
+At every stage, the Copilot Agent must:
+
+1. implement the requested functionality;
+2. write unit tests;
+3. write integration tests where appropriate;
+4. run the complete test suite;
+5. correct failures without weakening requirements;
+6. update documentation;
+7. inspect for unintended nondeterminism;
+8. record remaining limitations;
+9. avoid fabricated repository descriptions;
+10. continue until all stage acceptance tests pass.
+
+⸻
+
+22. Copilot Agent Implementation Rules
+
+The GitHub Copilot Agent shall:
+
+* use clear, idiomatic SWI-Prolog;
+* prefer pure predicates for assessment calculations;
+* isolate I/O from business rules;
+* avoid cuts unless determinism is proven and documented;
+* avoid dynamic global state where explicit state passing is practical;
+* use dictionaries or documented compound terms consistently;
+* validate all external data;
+* provide structured errors;
+* never silently invent missing evidence;
+* never convert a provisional inference into a confirmed fact;
+* never use GitHub popularity as a substitute for quality;
+* never assign 100% through rounding alone;
+* preserve all consequential decision inputs;
+* produce explanations alongside decisions;
+* include fixture repositories for testing;
+* ensure tests do not depend on live GitHub availability;
+* mock remote API responses in automated tests.
+
+⸻
+
+23. Acceptance Criteria
+
+The first release is complete when:
+
+1. a repository can be registered or imported;
+2. its algorithm concepts can be manually confirmed;
+3. at least three job options can be generated from sample repositories;
+4. a participant can create a work-integrated learning project;
+5. a creative vision can be recorded;
+6. the independent stage can be enforced;
+7. evidence can be submitted and mapped to criteria;
+8. understanding can be assessed;
+9. 100% requires every mandatory criterion;
+10. prestigiousness is gated by understanding;
+11. multiple valid creative solutions are supported;
+12. employee, customer and community reviews are separated;
+13. an explainable reward breakdown can be produced;
+14. team contributions can be recorded;
+15. private fulfilment responses remain private;
+16. an assessment can be appealed and revised;
+17. every consequential result has an audit trail;
+18. all unit and integration tests pass;
+19. the system runs in SWI-Prolog;
+20. complete installation and usage documentation is present.
+
+⸻
+
+24. Demonstration Scenario
+
+A participant selects a repository concerned with transforming or optimising Prolog programs.
+
+The system generates the role:
+
+Algorithm Transformation Engineer
+
+The participant’s authentic task is:
+
+Design a Prolog program that transforms a selected class of
+nondeterministic operations into an explicit deterministic structure.
+
+The participant:
+
+1. studies the high-level problem;
+2. records a creative vision;
+3. writes input/output specifications;
+4. creates an independent implementation;
+5. writes tests;
+6. completes the independent stage;
+7. compares the implementation with related repositories;
+8. explains similarities and differences;
+9. revises the program where useful;
+10. submits code, tests, documentation and reflection.
+
+The assessment finds:
+
+Understanding: 100%
+Prestigiousness: 92%
+Customer usefulness: Accomplished
+Community contribution: Distinguished
+Employee fulfilment: Private participant record
+
+The reward engine returns:
+
+[
+    recognition(complete_understanding),
+    recognition(distinguished_algorithm_designer),
+    opportunity(advanced_repository_project),
+    community_credit(documentation),
+    employee_reward(project_completion_bonus)
+].
+
+The explanation states precisely which evidence supported each result.
+
+⸻
+
+25. Final Design Principle
+
+The system should treat a repository not merely as software, but as the beginning of an educational and occupational ecosystem.
+
+An algorithm may become:
+
+* a subject to understand;
+* a tool to use;
+* a job to perform;
+* a project to improve;
+* a service for a customer;
+* a contribution to a community;
+* a creative medium;
+* a source of meaningful and fulfilling work.
+
+The purpose of the Understanding/Prestigiousness HRM Rewards Algorithm is therefore not simply to score people. Its purpose is to connect understanding, creative independence, authentic work, contribution and fair recognition within a transparent Prolog system.
+
+The specification deliberately separates understanding, prestigiousness, impact and remuneration, so aesthetically impressive or popular work cannot outrank correctness, safety or genuine mastery.
