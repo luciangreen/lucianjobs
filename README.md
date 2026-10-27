@@ -38,6 +38,10 @@ The system treats repositories as the starting point for jobs, learning pathways
 ## Example command showcase
 
 The examples below assume the CLI wrapper `./hrm` is executable and SWI-Prolog 10+ is on your `PATH`.
+The CLI currently stores data only in process memory, so separate invocations
+cannot share repositories, projects, or generated IDs. These commands illustrate
+the available commands; use the public API from one Prolog process for a
+multi-step workflow. See the [feature guide](docs/features.md) for details.
 
 ### Repository management
 
@@ -132,6 +136,7 @@ swipl -q -f tests/test_runner.pl -g run_tests -t halt
 
 ## Documentation
 
+* [Feature guide, public API, tests, and remaining work](docs/features.md)
 * [Installation guide](docs/installation.md)
 * [Architecture guide](docs/architecture.md)
 * [Administrator guide](docs/administrator.md)

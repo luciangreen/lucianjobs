@@ -2,13 +2,13 @@
 
 :- use_module(library(readutil)).
 :- use_module(library(http/json)).
-:- use_module(hrm_rewards).
-:- use_module(repository_catalogue).
-:- use_module(job_generator).
-:- use_module(learning_pathways).
-:- use_module(reports).
-:- use_module(comparison_control).
-:- use_module(persistence).
+:- use_module(hrm_rewards, []).
+:- use_module(repository_catalogue, []).
+:- use_module(job_generator, []).
+:- use_module(learning_pathways, []).
+:- use_module(reports, []).
+:- use_module(comparison_control, []).
+:- use_module(persistence, []).
 
 main(Argv) :-
     command_result(Argv, Result),

@@ -2,7 +2,7 @@
 
 :- use_module(test_support).
 :- use_module('../src/hrm_rewards.pl').
-:- use_module('../src/stakeholder_reviews.pl').
+:- use_module('../src/stakeholder_reviews.pl', []).
 :- use_module('../src/reward_engine.pl', []).
 :- use_module('../src/persistence.pl').
 
