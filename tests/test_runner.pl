@@ -6,5 +6,6 @@
 :- ['test_prestigiousness.pl'].
 :- ['test_rewards.pl'].
 :- ['test_fairness.pl'].
+:- ['test_extended_features.pl'].
 :- ['test_appeals.pl'].
 :- ['test_end_to_end.pl'].
